@@ -63,12 +63,12 @@ body {
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 45px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 45px;
 }
 
 .board-row:after {
@@ -79,6 +79,8 @@ body {
 
 .status {
   margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 .game {
   display: flex;
@@ -87,4 +89,13 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10%;
+  padding: 10%;
+  padding-left: 30%;
+  background-color: rgb(245, 143, 143);
 }
